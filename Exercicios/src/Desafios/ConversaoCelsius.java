@@ -19,7 +19,7 @@ public class ConversaoCelsius {
 		f2 = 5 / 9.0;
 		c1 = +32;
 		c2 = 9 / 5.0;
-		System.out.println("Qual a medida a ser convertida C ou F ? ");
+		System.out.println("Qual a medida a ser convertida °C ou °F ? ");
 		unidade = sc.next().charAt(0);
 
 		if (unidade == 'C') {
@@ -29,7 +29,7 @@ public class ConversaoCelsius {
 			fare = (celsius * c2) + c1;
 			System.out.println("Temperatura = º " + String.format("%.2f", fare));
 		} else {
-			System.out.println("Digite a temperatura em ºF ");
+			System.out.println("Digite a temperatura em °F ");
 			fare = sc.nextDouble();
 			celsius = (fare + f1) * f2;
 			System.out.println("Temperatura = ° " + String.format("%.2f", celsius));
