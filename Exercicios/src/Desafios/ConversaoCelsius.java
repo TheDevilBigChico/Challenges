@@ -1,6 +1,5 @@
 package Desafios;
-// Desafio proposto para realizar a conversão das temperaturas utilizando variaveis e constantes
-// Como desafio proprio alterei a dinamica para que pudesse ser escolhido a conversão e os valores
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,6 +7,16 @@ public class ConversaoCelsius {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+
+		// Desafio proposto para realizar a conversão das temperaturas utilizando
+		// variaveis e constantes
+		// Como desafio proprio alterei a dinamica para que pudesse ser escolhido a
+		// conversão e os valores
+
+		// Challenge proposed to perform temperature conversion using variables and
+		// constants
+		// As a personal challenge, change the dynamics so that the conversion and
+		// values ​​could be chosen.
 
 		// (0 °C × 9/5) + 32 = 32 °F
 		// (32 °F − 32) × 5/9 = 0 °C
